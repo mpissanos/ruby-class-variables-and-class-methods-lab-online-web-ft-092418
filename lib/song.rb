@@ -33,7 +33,7 @@ class Song
     
   end
   
-  def artis_count
+  def artist_count
     count = 0
   end
 
