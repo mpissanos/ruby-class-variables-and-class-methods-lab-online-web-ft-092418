@@ -28,6 +28,7 @@ class Song
   end
   
   def self.genre_count
+    new_hash = Hash(0)
     Hash[@@genres.each do { |value| [ value, genres(value.uniq)] }]
   end
   end
