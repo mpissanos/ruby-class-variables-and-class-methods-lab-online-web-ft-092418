@@ -38,3 +38,6 @@ class Song
   end
 
 end 
+
+
+# Hash[@@genres.each do { |value| [ value, genres(value)] }]
