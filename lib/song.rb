@@ -28,7 +28,7 @@ class Song
   end
   
   def genre_count
-    g = Hash
+    g = Hash[]
   end
   
   def artis_count
