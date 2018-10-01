@@ -30,7 +30,7 @@ class Song
   def self.genre_count
     Hash[@@genres.collect do { |value| [ value, genres(value)] }]
   end
-  end
+  
   
   def self.artist_count
     count = 0
