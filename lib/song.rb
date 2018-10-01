@@ -29,11 +29,11 @@ class Song
   
   def self.genre_count
     g = Hash[@@genres.collect { |value| [ value, genres(value)] }]
-    g
+    return g
     
   end
   
-  def artist_count
+  def self.artist_count
     count = 0
   end
 
